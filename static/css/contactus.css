@@ -1,0 +1,165 @@
+
+.fl-contactus-banner {
+    width:100%;
+    height: 264px;
+    padding-top: 80px;
+    background: url("../image/contactusbanner.png")/*tpa=http://www.twterminal.com/img/contactusbanner.png*/ no-repeat center center;
+}
+
+.fl-contactus-bannerinner {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.fl-contactus-bannerinner .bannertxt{
+    text-align: center;
+}
+
+.fl-contactus-bannerinner .bannertxt h2{
+    margin-top: 18px;
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 48px;
+}
+
+.fl-contactus-bannerinner .bannertxt p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 20px;
+}
+
+.fl-contactus-container {
+    width:100%;
+    height: 850px;
+    background:#fff;
+}
+
+.fl-contactus-containerinner {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.fl-contactus-information {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.fl-contactus-contactbox {
+    float: left;
+    width: 398px;
+    height: 443px;
+    background: #fff;
+    text-align: center;
+    border-top: 1px solid #F2F2F2;
+    border-right: 0;
+}
+
+.fl-contactus-contactbox:last-of-type{
+    border-top: 1px solid #F2F2F2;
+}
+
+.fl-contactus-contactbox img {
+    margin: 60px auto;
+}
+
+.fl-contactus-contacttype {
+    font:bold 20px '微软雅黑';
+    color: #333333;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+
+.fl-contactus-contactbox img:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+    /* animation: rubberBand 1s ease;
+    -webkit-animation: rubberBand 1s ease;
+    -moz-animation: rubberBand 1s ease;
+    -ms-animation: rubberBand 1s ease;
+    -o-animation: rubberBand 1s ease; */
+}
+
+
+.fl-contactus-contactdesc {
+    font: 16px '微软雅黑';
+    color: #9D9EAA;
+    text-align: center;
+    line-height: 20px;
+}
+
+/* .fl-contactus-contactdesc:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+} */
+
+.fl-contactus-phoneNumber {
+    font:bold 24px '微软雅黑';
+    color: #336AFF;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 80px;
+}
+/* 
+.fl-contactus-phoneNumber:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+} */
+
+.fl-contactus-contactbtn , .fl-contactus-sendmailbtn {
+    display: block;
+    width: 180px;
+    height: 50px;
+    font: 20px/50px '微软雅黑';
+    /* color: #336AFF; */
+    color: #fff;
+    text-align: center;
+    /* background: rgba(51,106,255,0.1); */
+    background: #336aff;
+    margin: 0 auto;
+    margin-top: 66px;
+    cursor: pointer;
+}
+
+.fl-contactus-sendmailbtn:link {
+    /* color: #336AFF; */
+    color: #fff;
+}
+
+.fl-contactus-contactbtn:hover, .fl-contactus-sendmailbtn:hover{
+    background: #2954CC;
+    color: #fff;
+}
+
+.gsjjwrap{
+    padding: 80px 0;
+    height: 226px;
+}
+.gsjjwrap img{
+    float: left;
+    widows: 361px;
+    height: 226px;
+}
+.gsjjwrap dl{
+    float: left;
+    margin-left: 50px;
+    width: 780px;
+}
+.gsjjwrap dl dt{
+    color: #262626;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 16px 0px;
+}
+.gsjjwrap dl dd{
+    color: #595959;
+    font-size: 16px;
+    line-height: 28px;
+}

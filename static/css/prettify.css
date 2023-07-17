@@ -1,0 +1,72 @@
+.prettyprint {
+    margin-bottom: 20px;
+    padding: 8px;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8
+}
+.prettyprint .com {
+    color: #998;
+    font-style: normal
+}
+.prettyprint .tag {
+    color: #007
+}
+.prettyprint .lit {
+    color: #195f91
+}
+.prettyprint .pun,.prettyprint .opn,.prettyprint .clo {
+    color: #93a1a1
+}
+.prettyprint .fun {
+    color: #dc322f
+}
+.prettyprint .str,.prettyprint .atv {
+    color: #D14
+}
+.prettyprint .kwd,.prettyprint .prettyprint .tag {
+    color: #1e347b
+}
+.prettyprint .typ,.prettyprint .atn,.prettyprint .dec,.prettyprint .var {
+    color: teal
+}
+.prettyprint .pln {
+    color: #48484c
+}
+.prettyprint.linenums {
+    box-shadow: inset 40px 0 0 #fbfbfc,inset 41px 0 0 #ececf0
+}
+.pre-scrollable {
+    max-height: 340px;
+    overflow-y: scroll
+}
+ol.linenums {
+    list-style: decimal outside none;
+    margin-left: 20px
+}
+ol.linenums li {
+    line-height: 28px;
+    padding-left: 10px
+}
+pre ol.linenums {
+    margin: 0 0 0 33px
+}
+pre ol.linenums li {
+    padding-left: 12px;
+    color: #bbb;
+    line-height: 18px;
+    text-shadow: 0 1px 0 #fff
+}
+@media(max-width:767px) {
+    pre ol.linenums {
+        margin-left: 0;
+        list-style: none
+    }
+
+    ol.linenums li {
+        padding-left: 0
+    }
+
+    .prettyprint.linenums {
+        box-shadow: inset 0 0 0 #fbfbfc,inset 0 0 0 #ececf0
+    }
+}

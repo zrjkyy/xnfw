@@ -1,0 +1,377 @@
+.api-cont{
+	padding: 100px 0 30px;
+}
+.api-cont-inner{
+	padding-top: 1px;
+	/* width: 76%; */
+	width: 1200px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container_hd{
+	line-height: 52px;
+	background-color: #fff;
+	border-bottom: 1px solid #e4e8eb;
+	font-size: 16px;
+    padding: 0 30px;
+}
+.container_bd{
+	padding-bottom: 30px;
+}
+.col_side{
+	min-height: 1px;
+	background: #fafafc;
+	display: table-cell;
+    vertical-align: top;
+    word-wrap: break-word;
+	word-break: break-all;
+	width: 19.5%;
+	max-width: 208px;
+	padding: 20px 0;
+}
+.col_side dl{
+	word-break: break-all;
+	color: #353535;
+	font-size: 14px;
+}
+.col_side dl.on{
+	background: #fafafc;
+}
+.col_side dl dt{
+	position: relative;
+	line-height: 40px;
+    height: 40px;
+    padding: 0 0 0 45px;
+    position: relative;
+	cursor: pointer;
+}
+
+.col_side dl dt a:hover{
+	/* color: #336AFF; */
+}
+
+.col_side dl dt a{
+	display: block;
+	color: #333;
+    font-weight: 600;
+}
+.col_side dl dt .iconstatus{
+	position: absolute;
+    display: block;
+    width: 9px;
+    height: 7px;
+    background: url("../image/iconstatusbg.png")/*tpa=http://www.twterminal.com/img/iconstatusbg.png*/ no-repeat center 0px;
+	top: 16px;
+    left: 26px;
+}
+.col_side>dl.on dl dt .iconstatus{
+	position: absolute;
+    display: block;
+    width: 9px;
+    height: 7px;
+    background: url("../image/iconstatusbg.png")/*tpa=http://www.twterminal.com/img/iconstatusbg.png*/ no-repeat center 0px;
+    top: 15px;
+    left: 15px;
+}
+.col_side>dl.on dt .iconstatus{
+	background-position: center -15px;
+}
+
+.col_side>dl.on dl.on dt .iconstatus{
+	background-position: center -15px;
+}
+
+.col_side dl dd{
+	display: none;
+	padding: 0 0 0 60px;
+	line-height: 40px;
+    /* height: 40px; */
+	color: #353535;
+	margin-bottom: 5px;
+}
+.col_side dl dd.on{
+	background: #336aff;
+}
+.col_side dl dd.on a{
+	color: #fff;
+}
+.col_side dl dd a{
+	display: block;
+    line-height: 40px;
+    text-decoration: none;
+    color: #666666;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	word-wrap: normal;
+	font-size: 15px;
+}
+.col_side dl dd a:hover{
+    color: #336AFF;
+}
+.col_side dl dd.on a:hover{
+    color: #fff;
+}
+.col_main{
+	width: 2000px;
+    height: 700px;
+	display: table-cell;
+    vertical-align: top;
+    word-wrap: break-word;
+	word-break: break-all;
+	background: #fff;
+}
+.col_main .markdown{
+	padding: 0 50px 25px;
+}
+.col_main .markdown h1{
+	font-size: 24px;
+	line-height: 32px;
+	clear: both;
+	color: rgba(0, 0, 0, .85);
+	margin: 1em 0;
+	word-wrap: break-word;
+}
+.col_main .markdown p{
+	margin: 0 0 8px;
+	color: rgba(0, 0, 0, .65);
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-size: 13px;
+    line-height: 1.8;
+}
+.col_main .markdown h2{
+	margin-top: 40px;
+    font-size: 24px;
+	line-height: 32px;
+	clear: both;
+    color: rgba(0, 0, 0, .85);
+}
+.col_main .markdown h3{
+	margin-top: 32px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.col_main .markdown h4{
+	margin-top: 28px;
+    font-size: 14px;
+	line-height: 28px;
+	margin-bottom: 10px;
+}
+.col_main .markdown table  {
+	font-size: 12px;
+}
+.col_main .markdown table th.prop-desc, 
+.col_main .markdown table th.prop-example {
+	min-width: 160px;
+}
+.col_main .markdown table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells: show;
+	vertical-align: top;
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
+	margin: 12px 0 24px;
+}
+.col_main .markdown table + p {
+	margin-top: 24px;
+}
+.col_main .markdown table th,
+.col_main .markdown table td {
+	padding: 8px 12px;
+	font-size: 12px;
+	text-align: left;
+	word-break: break-word;
+	word-wrap: break-word;
+	min-width: 100px;
+    line-height: 20px;
+}
+.col_main .markdown table tbody td {
+	border-bottom: 1px solid #F0F3F6;
+}
+.col_main .markdown table tbody td {
+	border: 1px solid #F0F3F6;
+}
+.col_main .markdown table th,
+.col_main .markdown table td {
+	padding: 4px 12px;
+	word-break: break-word;
+}
+.col_main .markdown table th,
+.col_main .markdown table td {
+	min-width: 100px;
+}
+.col_main .markdown table th:last-child,
+.col_main .markdown table td:last-child {
+	min-width: 200px;
+}
+.col_main .markdown table th:nth-child(2),
+.col_main .markdown table td:nth-child(2) {
+	padding: 8px 12px;
+	min-width: 100px;
+}
+.col_main .markdown table th, .col_main .markdown thead td {
+	white-space: nowrap;
+	font-weight: 600;
+	background-color: #F7F7F7;
+	border: 1px solid transparent;
+}
+.col_main .markdown table th:first-child {
+	border-top-left-radius: 4px;
+}
+.col_main .markdown table th:last-child {
+	border-top-right-radius: 4px;
+}
+.col_main .markdown table img {
+	max-width: 240px;
+	height: auto;
+}
+.col_main .markdown table tr.active{
+	background: #f7f7f7;
+}
+.col_main .markdown table a{
+	color: #108EE9;
+}
+.col_main .markdown pre{
+	display: block;
+    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+    padding: 9.5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre;
+    white-space: pre-wrap;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	color: #333;
+	margin-top: 10px;
+}
+
+.col_main .markdown img{
+	max-width: 100%;
+}
+
+.indent {
+	text-indent: 2rem;
+}
+
+/*新的样式*/
+.crumbswrap{
+	height: 50px;
+	border-bottom: 1px solid #e4e8eb;
+	font-size: 15px;
+	color: #151515;
+	line-height: 15px;
+}
+.crumbswrap a,
+.crumbswrap span{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+}
+.crumbswrap span{
+	margin: 0 10px;
+}
+.crumbswrap a.on{
+	color: #222;
+}
+
+.crumbswrap a:hover{
+	color: #6f6f6f;
+}
+
+.markdown a:hover{
+	color: #333333;
+}
+
+.linklist{
+
+}
+.linklist dl{
+	float: left;
+	width: 25%;
+}
+.linklist dt{
+	line-height: 60px;
+    font-size: 17px;
+	font-weight: bold;
+	color: #655c5c;
+}
+.linklist dd{
+	padding: 4px 0 0 12px;
+    position: relative;
+}
+.linklist dd a{
+	color: #108EE9;
+    display: block;
+    line-height: 27px;
+    font-size: 13px;
+}
+.linklist dd a:hover{
+	text-decoration: underline;
+}
+.linklist dd::before{
+	content: '';
+	display: block;
+	width: 2px;
+	height: 2px;
+	position: absolute;
+	background: #108EE9;
+	border-radius: 50%;
+	left: 0;
+	top: 16px;
+}
+
+.dllistwrap{
+	margin-top: 15px;
+}
+.dllistwrap dl{
+	border-bottom: 1px solid #e4e8eb;
+}
+.dllistwrap dl dt{
+	position: relative;
+	height: 50px;
+	line-height: 50px;
+    font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #655c5c;
+}
+.dllistwrap dl dt span{
+	position: absolute;
+	display: block;
+	width: 14px;
+	height: 14px;
+	right: 10px;
+	top: 19px;
+	background: url("../image/qbg1.jpg")/*tpa=http://www.twterminal.com/img/qbg1.jpg*/ no-repeat center center;
+}
+.dllistwrap dl.on dt span{
+	background: url("../image/qbg2.jpg")/*tpa=http://www.twterminal.com/img/qbg2.jpg*/ no-repeat center center;
+}
+.dllistwrap dl dd{
+	display: none;
+	line-height: 50px;
+	padding-left: 20px;
+}
+
+/*.api-footer .rightp{
+	text-align: center;
+    color: #999999;
+    font-size: 15px;
+	line-height: 30px;
+	padding-bottom: 30px;
+}*/
+
+.fl-header{
+	border-bottom: 1px solid #E5E5E5;
+}

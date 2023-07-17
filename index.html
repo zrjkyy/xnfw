@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--[if lt IE 8]>
+	  <script type="text/javascript">
+		alert("您的浏览器版本过低，建议切换到急速模式浏览或者使用其他浏览器浏览！");
+	  </script>
+	<![endif]-->
+	<link rel="shortcut icon" href="http://www.taivei.com/favicon.ico" type="image/x-icon">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta charset="UTF-8">
+	<title>网爵开放平台 - 虚拟生态服务平台</title>
+	<meta name="keywords" content="充值,卡密,API接口,批充批采,批量采购,充值中心,充值接口,充值缴费,话费充值,游戏充值,便民充值,开放平台">
+	<meta name="description" content="网爵开放平台集合全品类虚拟货源,提供虚拟充值商品采购、销售、运营等,专业运营技术支持,为不同类型企业提供充值、用户运营及营销解决方案,助力企业增长">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="shortcut icon" href="http://www.taivei.com/favicon.ico">
+	<!--PC端-->
+	<!-- <link rel="stylesheet" type="text/css" href="./css/all.css" media="screen and (min-width: 501px)">
+	<link rel="stylesheet" type="text/css" href="./css/index.css" media="screen and (min-width: 501px)"> -->
+	<link rel="stylesheet" type="text/css" href="static/css/all.css">
+	<link rel="stylesheet" type="text/css" href="static/css/index.css">
+	<!--移动端-->
+	<!-- <link rel="stylesheet" type="text/css" href="./css/all-phone.css" media="screen and (max-width: 500px)">
+	<link rel="stylesheet" type="text/css" href="./css/index-phone.css" media="screen and (max-width: 500px)"> -->
+	<script src="http://www.taivei.com/wpa.b.qq.com/cgi/wpa.php"></script>
+</head>
+
+<body>
+	<div class="fl-header headeron">
+		<div class="fl-headerinner">
+			<div class="headerlog">
+				<a href=""></a>
+			</div>
+			<div class="headermenu">
+				<ul class="cf">
+					<li class="active">
+						<a href="index1.html">首页</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="dropdownmenu">产品服务</a>
+						<div class="moremenu" style="width:450px;">
+							<dl class="br1">
+								<dt>虚拟充值</dt>
+								<dd><a href="mall.html">虚拟商城</a></dd>
+								<dd><a href="api.html">充值API</a></dd>
+								<dd><a href="recharge.html">批充批采</a></dd>
+								<dd></dd>
+							</dl>
+							<dl>
+								<dt>产品服务</dt>
+						<dd><a href="mall.html">虚拟商城</a></dd>
+						<dd><a href="api.html">充值API</a></dd>
+						<dd><a href="recharge.html">批充批采</a></dd>
+						<dd><a href="accompany.html">短彩服务</a></dd>
+						<dd><a href="gameleveling.html">大数据营销</a></dd>
+						<dd><a href="rent.html">BPO服务</a></dd>
+						<dd><a href="minigame.html">智联物联网</a></dd>
+						<dd><a href="operation.html">电商代运营</a></dd>
+					</dl>
+							<dl>
+								<dt>电商服务</dt>
+								<dd><a href="operation.html">电商代运营</a></dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="dropdownmenu">解决方案</a>
+						<div class="moremenu" style="width:160px;">
+							<dl style="width: 140px;">
+								<dt>解决方案</dt>
+								<dd><a href="flow.html">流量变现</a></dd>
+								<dd><a href="userpull.html">拉新促活</a></dd>
+								<dd><a href="integration.html">积分兑换</a></dd>
+								<dd><a href="gift.html">营销赠礼</a></dd>
+								<dd><a href="channel.html">渠道分发</a></dd>
+								<!-- <dd><a href="operation.html">电商代运营</a></dd> -->
+							</dl>
+						</div>
+					</li>
+					<li>
+						<a href="support.html">技术支持</a>
+					</li>
+					<li>
+						<a href="contactus.html">联系我们</a>
+					</li>
+				</ul>
+			</div>
+			<div class="headermenuphone">
+				<div class="menuBtn"></div>
+				<ul>
+					<li><a href="index1.html">首页</a></li>
+					<li>
+						产品服务
+						<ul>
+							<li>虚拟充值</li>
+							<li>云通信</li>
+							<li>电商服务</li>
+						</ul>
+					</li>
+					<li>
+						解决方案
+						<ul>
+							<li>流量变现</li>
+							<li>拉新促活</li>
+							<li>积分兑换</li>
+							<li>营销赠礼</li>
+							<li>渠道分发</li>
+						</ul>
+					</li>
+					<li>技术支持</li>
+					<li><a href="contactus.html">联系我们</a></li>
+				</ul>
+			</div>
+			<div class="hedersetting">
+				<!-- <div class="logined">
+					<p class="rzstatus">未认证</p>
+					<p class="phonenum">---------</p>
+					<a href="javascript:;" class="logout">退出</a>
+				</div>
+				<div class="nologin">
+					<a href="javascript:;" class="btn-register">注册</a>
+					<span>|</span>
+					<a href="javascript:;" class="btn-login">登录</a>
+				</div> -->
+				<!-- <iframe style="float:left;" id="loginiframe" name="loginmain" src="./iframe.html" scrolling="no" frameborder="0" width="200" height="30"></iframe> -->
+				<!-- <a href="javascript:;" class="btn-kzt">控制台</a> -->
+			</div>
+		</div>
+	</div>
+	<div class="fl-content">
+		<!-- banner -->
+		<div class="bannerwrap">
+			<ul class="slideritem">
+				<li class="li0" style="display:block;">
+					<div class="liinner">
+
+						<!-- <div class="cubewrap">
+							<div class="cubecontainer">
+								<div class="cube cube--1">
+									<div class="side side--back">
+										<div class="side__inner"></div>
+									</div>
+									<div class="side side--left">
+										<div class="side__inner"></div>
+									</div>
+									<div class="side side--right">
+										<div class="side__inner"></div>
+									</div>
+									<div class="side side--top">
+										<div class="side__inner"></div>
+									</div>
+									<div class="side side--bottom">
+										<div class="side__inner"></div>
+									</div>
+									<div class="side side--front">
+										<div class="side__inner"></div>
+									</div>
+								</div>
+								<div class="cube cube--2">
+									<div class="side side--back">
+										<div class="side__inner"></div>
+									</div>
+									<div class="side side--left">
+										<div class="side__inner"></div>
+									</div>
+									<div class="side side--right">
+										<div class="side__inner"></div>
+									</div>
+									<div class="side side--top">
+										<div class="side__inner"></div>
+									</div>
+									<div class="side side--bottom">
+										<div class="side__inner"></div>
+									</div>
+									<div class="side side--front">
+										<div class="side__inner"></div>
+									</div>
+								</div>
+								<div class="cube cube--3">
+									<div class="side side--back">
+										<div class="side__inner"></div>
+									</div>
+									<div class="side side--left">
+										<div class="side__inner"></div>
+									</div>
+									<div class="side side--right">
+										<div class="side__inner"></div>
+									</div>
+									<div class="side side--top">
+										<div class="side__inner"></div>
+									</div>
+									<div class="side side--bottom">
+										<div class="side__inner"></div>
+									</div>
+									<div class="side side--front">
+										<div class="side__inner"></div>
+									</div>
+								</div>
+							</div>
+						</div> -->
+
+						<div class="bannertxt">
+							<h2>专业的</h2>
+							<h2>虚拟生态服务平台</h2>
+							<p>数字时代的云通信服务商</p>
+							<a href="contactus.html"><div id="BizQQWPA1">立即咨询</div></a>
+						</div>
+
+					</div>
+				</li>
+				<!-- <li class="li1" style="background:#4400b3;">
+					<div class="liinner">
+						
+					</div>
+				</li>
+				<li class="li2" style="background:black;">
+					<div class="liinner">
+						
+					</div>
+				</li>
+				<li class="li3" style="background:#ccc;">
+					<div class="liinner">
+						
+					</div>
+				</li> -->
+			</ul>
+			<ul class="slidernum">
+				<!-- <li class="on"></li> -->
+				<!-- <li></li>
+				<li></li>
+				<li></li> -->
+			</ul>
+		</div>
+		<!-- 产品服务 -->
+		<div class="indexbox box-cpfw">
+			<h2 class="tith2">产品服务</h2>
+			<p class="titp">从全品类虚拟商品供货，到专业运营技术支持，一站式助力企业增长</p>
+			<div class="box-cont">
+				<ul class="tabul">
+					<li class="on">虚拟充值</li>
+					<li>云通信</li>
+					<li>电商服务</li>
+				</ul>
+				<div class="tabcont">
+					<div class="tabcontlist">
+						<ul>
+							<li>
+								<!-- <img class="liimg" src="http://images.soouu.cn/soouuimg/yyitem1.jpg"/>
+								<div class="innerli">
+									<img src="http://images.soouu.cn/soouuimg/yyitem5.jpg"/>
+								</div> -->
+								<div class="liintro">
+									<img src="static/picture/cpbg1.png">
+									<h2>虚拟商城</h2>
+									<p>全品类虚拟商品</p>
+								</div>
+								<dl>
+									<a href="mall.html">
+										<dt>
+											<img src="static/picture/cpbg1.png">
+											<h2>虚拟商城</h2>
+											<p>全品类虚拟商品</p>
+										</dt>
+										<dd>
+											<div><p class="dd1">货源齐全，多达千种商品</p></div>
+										</dd>
+										<dd>
+											<div><p class="dd2">强势资源，保障低价</p></div>									</dd>
+										<dd>
+											<div><p class="dd3" style='line-height: 28px;'>快速嵌入App、公众号、小程序、客户端</p></div>
+										</dd>
+									</a>
+								</dl>
+							</li>
+							<li>
+								<!-- <img class="liimg" src="http://images.soouu.cn/soouuimg/yyitem1.jpg"/>
+								<div class="innerli">
+									<img src="http://images.soouu.cn/soouuimg/yyitem5.jpg"/>
+								</div> -->
+								<div class="liintro">
+									<img src="static/picture/cpbg2.png">
+									<h2>充值API</h2>
+									<p>虚拟商品标准化接口</p>
+								</div>
+								<dl>
+									<a href="api.html">
+										<dt>
+											<img src="static/picture/cpbg2.png">
+											<h2>充值API</h2>
+											<p>虚拟商品标准化接口</p>
+										</dt>
+										<dd>
+											<div><p class="dd4">充值秒到账，客服秒响应</p></div>
+										</dd>
+										<dd>
+											<div><p class="dd5" style='letter-spacing: -1.2px;'>专业技术支撑，系统稳如磐石</p></div>									</dd>
+										<dd>
+											<div><p class="dd6">货源稳定，远离断货烦恼</p></div>
+										</dd>
+									</a>
+								</dl>
+							</li>
+							<li>
+								<!-- <img class="liimg" src="http://images.soouu.cn/soouuimg/yyitem1.jpg"/>
+								<div class="innerli">
+									<img src="http://images.soouu.cn/soouuimg/yyitem5.jpg"/>
+								</div> -->
+								<div class="liintro">
+									<img src="static/picture/cpbg3.png">
+									<h2>批充批采</h2>
+									<p>虚拟商品批充批采、采购</p>
+								</div>
+								<dl>
+									<a href="recharge.html">
+										<dt>
+											<img src="static/picture/cpbg3.png">
+											<h2>批充批采</h2>
+											<p>虚拟商品批充批采、采购</p>
+										</dt>
+										<dd>
+											<div><p class="dd7">在线直充或卡密发货任选</p></div>
+										</dd>
+										<dd>
+											<div><p class="dd8">一键下单，即时到账</p></div>									</dd>
+										<dd>
+											<div><p class="dd9">服务灵活，支持定制</p></div>
+										</dd>
+									</a>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="tabcontlist" style="display:none;">
+						<ul style="width: 1200px;">
+							<li>
+								<!-- <img class="liimg" src="http://images.soouu.cn/soouuimg/yyitem2.jpg"/>
+								<div class="innerli">
+									<img src="http://images.soouu.cn/soouuimg/yyitem6.jpg"/>
+								</div> -->
+								<div class="liintro">
+									<img src="static/picture/cpbg7.png">
+									<h2>短彩信服务</h2>
+									<p>网爵开放平台提供验证码短信、行业短信、营销短信、免流彩信等服务</p>
+								</div>
+								<dl>
+									<a href="accompany.html">
+										<dt>
+											<img src="static/picture/cpbg7.png">
+											<h2>短彩信服务</h2>网爵开放平台提供验证码短信、行业短信、营销短信、免流彩信等服务
+										</dt>
+										<dd>
+											<div><p class="dd10">多元化的短彩信通道</p></div>
+										</dd>
+										<dd>
+											<div><p class="dd11">随充随用，操作简单</p></div>									</dd>
+										<dd>
+											<div><p class="dd12">定制化业务系统支持</p></div>
+										</dd>
+									</a>
+								</dl>
+							</li>
+							<li>
+								<!-- <img class="liimg" src="http://images.soouu.cn/soouuimg/yyitem2.jpg"/>
+								<div class="innerli">
+									<img src="http://images.soouu.cn/soouuimg/yyitem6.jpg"/>
+								</div> -->
+								<div class="liintro">
+									<img src="static/picture/cpbg6.png">
+									<h2>大数据营销</h2>
+									<p>大数据精准标签服务</p>
+								</div>
+								<dl>
+									<a href="gameleveling.html">
+										<dt>
+											<img src="static/picture/cpbg6.png">
+											<h2>大数据营销</h2>
+											<p>大数据精准标签营销服务</p>
+										</dt>
+										<dd>
+											<div><p class="dd13">精准标签，精确画像</p></div>
+										</dd>
+										<dd>
+											<div><p class="dd14">精准匹配，快速投放</p></div>									</dd>
+										<dd>
+											<div><p class="dd15">覆盖面广，价格优惠</p></div>
+										</dd>
+									</a>
+								</dl>
+							</li>
+							<li>
+								<!-- <img class="liimg" src="http://images.soouu.cn/soouuimg/yyitem2.jpg"/>
+								<div class="innerli">
+									<img src="http://images.soouu.cn/soouuimg/yyitem6.jpg"/>
+								</div> -->
+								<div class="liintro">
+									<img src="static/picture/cpbg4.png">
+									<h2>BPO服务</h2>
+									<p>专业的呼叫中心服务</p>
+								</div>
+								<dl>
+									<a href="rent.html">
+										<dt>
+											<img src="static/picture/cpbg4.png">
+											<h2>BPO服务</h2>
+											<p>专业的呼叫中心和电销团队</p>
+										</dt>
+										<dd>
+											<div><p class="dd16">400坐席，高效专业</p></div>
+										</dd>
+										<dd>
+											<div><p class="dd17">专业细分，品质服务</p></div>									</dd>
+										<dd>
+											<div><p class="dd18">技术优势，稳定保障</p></div>
+										</dd>
+									</a>
+								</dl>
+							</li>
+							<li>
+									<!-- <img class="liimg" src="http://images.soouu.cn/soouuimg/yyitem2.jpg"/>
+									<div class="innerli">
+										<img src="http://images.soouu.cn/soouuimg/yyitem6.jpg"/>
+									</div> -->
+									<div class="liintro">
+										<img src="static/picture/cpbg5.png">
+										<h2>智联物联网</h2>
+										<p>专业物联网管理平台开发</p>
+									</div>
+									<dl>
+										<a href="minigame.html">
+											<dt>
+												<img src="static/picture/cpbg5.png">
+												<h2>智联物联网</h2>
+												<p>专业营物联网管理平台开发</p>
+											</dt>
+											<dd>
+												<div><p class="dd19">专业物联网开发团队</p></div>
+											</dd>
+											<dd>
+												<div><p class="dd20">结合场景需求定制</p></div>	
+											</dd>
+											<dd>
+												<div><p class="dd21">全流程的技术支持</p></div>
+											</dd>
+										</a>
+									</dl>
+								</li>
+						</ul>
+					</div>
+					<div class="tabcontlist" style="display:none;">
+						<ul>
+							<li style="float: none;margin: 0 auto;">
+								<div class="liintro">
+									<img src="static/picture/cpbg8.png">
+									<h2>电商代运营</h2>
+									<p>全品类电商代运营</p>
+								</div>
+								<dl>
+									<a href="operation.html">
+										<dt>
+											<img src="static/picture/cpbg8.png">
+											<h2>电商代运营</h2>
+											<p>全品类电商代运营</p>
+										</dt>
+										<dd>
+											<div><p class="dd22">商品管理</p></div>
+										</dd>
+										<dd>
+											<div><p class="dd23">店铺推广</p></div>									
+										</dd>
+										<dd>
+											<div><p class="dd24">视觉设计</p></div>
+										</dd>
+									</a>
+								</dl>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 精准高效的解决方案 -->
+		<div class="indexbox box-jjfa">
+			<h2 class="tith2">精准高效的解决方案</h2>
+			<p class="titp">整合商品、渠道资源，行业领先的技术资源，驱动企业实现业绩增长。</p>
+			<div class="box-cont">
+				<!-- <ul class="ul-accordion">
+					<li class="li0">
+						<div class="limx">
+							<img src="http://images.soouu.cn/soouuimg/ourproducts.png" />
+						</div>
+					</li>
+					<li class="li1">
+						<div class="limx">
+							<img src="http://images.soouu.cn/soouuimg/ourproducts.png" />
+						</div>
+					</li>
+					<li class="li2">
+						<div class="limx">
+							<img src="http://images.soouu.cn/soouuimg/ourproducts.png" />
+						</div>
+					</li>
+					<li class="li3">
+						<div class="limx">
+							<img src="http://images.soouu.cn/soouuimg/ourproducts.png" />
+						</div>
+					</li>
+					<li class="li4">
+						<div class="limx">
+							<img src="http://images.soouu.cn/soouuimg/ourproducts.png" />
+						</div>
+					</li>
+					<li class="li5">
+						<div class="limx">
+							<img src="http://images.soouu.cn/soouuimg/ourproducts.png" />
+						</div>
+					</li>
+				</ul> -->
+				<ul class="ul-gaode">
+					<li class="li1" style="height:350px;">
+						<div class="lileft">
+							<img src="static/picture/jj1.png">
+							<dl>
+								<dt>流量变现</dt>
+								<dd>使用范围广</dd>
+								<dd>变现速度快</dd>
+								<dd>全渠道适配</dd>
+								<dd>灵活化运营</dd>
+							</dl>
+						</div>
+						<div class="liright">
+							<img src="static/picture/jj1.png">
+							<dl>
+								<dt>流量变现</dt>
+								<dd>使用范围广</dd>
+								<dd>变现速度快</dd>
+								<dd>全渠道适配</dd>
+								<dd>灵活化运营</dd>
+							</dl>
+						</div>
+						<a class="limx" style="display:block;" href="flow.html">
+							<div class="limxtop">
+								<h2><img src="static/picture/jj1.png">流量变现</h2>
+								<p>全套技术、客服支持，低成本提升销售额。</p>
+								<div>
+									<span>使用范围广</span>
+									<span>变现速度快</span>
+									<span>全渠道适配</span>
+									<span>灵活化运营</span>
+								</div>
+							</div>
+							<div class="limxbottom">
+								<dl>
+									<dt>合作案例:</dt>
+									<dd><img src="static/picture/logo_8.png"></dd>
+									<dd><img src="static/picture/logo_9.png"></dd>
+									<dd><img src="static/picture/logo_10.png"></dd>
+									<dd><img src="static/picture/logo_11.png"></dd>
+								</dl>
+							</div>
+						</a>
+					</li>
+					<li class="li2">
+						<div class="lileft">
+							<img src="static/picture/jj2.png">
+							<dl>
+								<dt>拉新促活</dt>
+								<dd>内容创意</dd>
+								<dd>商品配置</dd>
+								<dd>技术支持</dd>
+								<dd>数据收集</dd>
+							</dl>
+						</div>
+						<div class="liright">
+							<img src="static/picture/jj2.png">
+							<dl>
+								<dt>拉新促活</dt>
+								<dd>内容创意</dd>
+								<dd>商品配置</dd>
+								<dd>技术支持</dd>
+								<dd>数据收集</dd>
+							</dl>
+						</div>
+						<a class="limx" href="userpull.html">
+							<div class="limxtop">
+								<h2><img src="static/picture/jj2.png">拉新促活</h2>
+								<p>通过充值服务、内容营销、游戏化运营等手段提升用户体验，低成本实现拉新、促活。</p>
+								<div>
+									<span>内容创意</span>
+									<span>商品配置</span>
+									<span>技术支持</span>
+									<span>数据收集</span>
+								</div>
+							</div>
+							<div class="limxbottom">
+								<dl>
+									<dt>合作案例:</dt>
+									<dd><img src="static/picture/logo_7.png"></dd>
+									<dd><img src="static/picture/logo_6.png"></dd>
+								</dl>
+							</div>
+						</a>
+					</li>
+					<li class="li3">
+						<div class="lileft">
+							<img src="static/picture/jj3.png">
+							<dl>
+								<dt>积分兑换</dt>
+								<dd>商城搭建</dd>
+								<dd>商品供货</dd>
+								<dd>活动运营</dd>
+								<dd>技术支持</dd>
+							</dl>
+						</div>
+						<div class="liright">
+							<img src="static/picture/jj3.png">
+							<dl>
+								<dt>积分兑换</dt>
+								<dd>商城搭建</dd>
+								<dd>商品供货</dd>
+								<dd>活动运营</dd>
+								<dd>技术支持</dd>
+							</dl>
+						</div>
+						<a class="limx" href="integration.html">
+							<div class="limxtop">
+								<h2><img src="static/picture/jj3.png">积分兑换</h2>
+								<p>搭建用户积分商城，定制积分兑换活动，助力实现营销闭环。</p>
+								<div>
+									<span>商城搭建</span>
+									<span>商品供货</span>
+									<span>活动运营</span>
+									<span>技术支持</span>
+								</div>
+							</div>
+							<div class="limxbottom">
+								<dl>
+									<dt>合作案例:</dt>
+									<dd><img src="static/picture/logo_12.png"></dd>
+									<dd><img src="static/picture/logo_13.png"></dd>
+									<dd><img src="static/picture/logo_14.png"></dd>
+									<dd><img src="static/picture/logo_15.png"></dd>
+								</dl>
+							</div>
+						</a>
+					</li>
+					<li class="li4">
+						<div class="lileft">
+							<img src="static/picture/jj4.png">
+							<dl>
+								<dt>营销赠礼</dt>
+								<dd>形式灵活</dd>
+								<dd>方便快捷</dd>
+								<dd>应用场景广泛</dd>
+								<!-- <dd> </dd> -->
+							</dl>
+						</div>
+						<div class="liright">
+							<img src="static/picture/jj4.png">
+							<dl>
+								<dt>营销赠礼</dt>
+								<dd>形式灵活</dd>
+								<dd>方便快捷</dd>
+								<dd>应用场景广泛</dd>
+								<!-- <dd> </dd> -->
+							</dl>
+						</div>
+						<a class="limx" href="gift.html">
+							<div class="limxtop">
+								<h2><img src="static/picture/jj4.png">营销赠礼</h2>
+								<p>结合虚拟商品打造爆款活动，定制h5小游戏，为企业营销推广、福利发放提供快捷解决方案。</p>
+								<div>
+									<span>形式灵活</span>
+									<span>方便快捷</span>
+									<span>应用场景广泛</span>
+									<!-- <span> </span> -->
+								</div>
+							</div>
+							<div class="limxbottom">
+								<dl>
+									<dt>合作案例:</dt>
+									<dd><img src="static/picture/logo_14.png"></dd>
+								</dl>
+							</div>
+						</a>
+					</li>
+					<li class="li5">
+						<div class="lileft">
+							<img src="static/picture/jj5.png">
+							<dl>
+								<dt>渠道分发</dt>
+								<dd>优质渠道</dd>
+								<dd>稳定出货</dd>
+								<dd>全程技术服务</dd>
+								<!-- <dd> </dd> -->
+							</dl>
+						</div>
+						<div class="liright">
+							<img src="static/picture/jj5.png">
+							<dl>
+								<dt>渠道分发</dt>
+								<dd>优质渠道</dd>
+								<dd>稳定出货</dd>
+								<dd>全程技术服务</dd>
+								<!-- <dd> </dd> -->
+							</dl>
+						</div>
+						<a class="limx" href="channel.html">
+							<div class="limxtop">
+								<h2><img src="static/picture/jj5.png">渠道分发</h2>
+								<p>全网分发渠道，可实现虚拟商品迅速铺货。</p>
+								<div>
+									<span>优质渠道</span>
+									<span>稳定出货</span>
+									<span>全程技术服务</span>
+									<!-- <span> </span> -->
+								</div>
+							</div>
+							<div class="limxbottom">
+								<dl>
+									<dt>合作案例:</dt>
+									<dd><img src="static/picture/logo_2.png"></dd>
+									<dd><img src="static/picture/logo_3.png"></dd>
+									<dd><img src="static/picture/logo_19.png"></dd>
+								</dl>
+							</div>
+						</a>
+					</li>
+					<!-- <li class="li6">
+						<div class="lileft">
+							<img src="./img/jj6.png" />
+							<dl>
+								<dt>电商代运营</dt>
+								<dd>商品管理</dd>
+								<dd>店铺推广</dd>
+								<dd>视觉设计</dd>
+								<dd>售后服务</dd>
+							</dl>
+						</div>
+						<div class="liright">
+							<img src="./img/jj6.png" />
+							<dl>
+								<dt>电商代运营</dt>
+								<dd>专业运营团队</dd>
+								<dd>经验丰富</dd>
+								<dd>轻松托管</dd>
+							</dl>
+						</div>
+						<a class="limx" href="operation.html">
+							<div class="limxtop">
+								<h2><img src="./img/jj6.png" />电商代运营</h2>
+								<p>可为互联网内容商快速提升电商渠道销量。</p>
+								<div>
+									<span>专业运营团队</span>
+									<span>经验丰富</span>
+									<span>轻松托管</span>
+								</div>
+							</div>
+							<div class="limxbottom">
+								<dl>
+									<dt>合作案例:</dt>
+									<dd><img src="./img/logo_17.png"/></dd>
+									<dd><img src="./img/logo_18.png"/></dd>
+									<dd><img src="./img/logo_4.png"/></dd>
+								</dl>
+							</div>
+						</a>
+					</li> -->
+				</ul>
+			</div>
+		</div>
+		<div class="indexbox box-jjfaphone">
+			<h2 class="tith2">解决方案</h2>
+			<p class="titp">整合商品、渠道资源，行业领先的技术资源，驱动企业实现业绩增长。</p>
+			<ul>
+				<li>
+					<img src="static/picture/indexbanner1.png">
+				</li>
+				<li>
+					<img src="static/picture/banner1.png">
+				</li>
+				<li>
+					<img src="static/picture/banner3.png">
+				</li>
+				<li>
+					<img src="static/picture/banner4.png">
+				</li>
+				<li>
+					<img src="static/picture/banner5.png">
+				</li>
+			</ul>
+		</div>
+		<!-- 成功案例 -->
+		<div class="indexbox box-cgal">
+			<h2 class="tith2">行业案例</h2>
+			<p class="titp">基于全链路虚拟生态服务，解决不同行业、不同场景的需求</p>
+			<div class="box-cont">
+				<ul class="ul-anlilist cf">
+					<li>
+						<img src="static/picture/cgbg1.png">
+						<h3 class="casetype">银行</h3>
+						<h4 class="casename">工商银行</h4>
+						<p>为工行银行App提供充值接口对接等营销解决方案。</p>
+						<div class="spanwrap">
+							<span>定制化积分商城</span>
+							<span>创新营销活动</span>
+							<span>专业技术开发</span>
+						</div>
+					</li>
+					<li>
+						<img src="static/picture/cgbg2.png">
+						<h3 class="casetype">消费金融</h3>
+						<h4 class="casename">中信金融</h4>
+						<p>提供全品类虚拟充值商品及定制化营销玩法，快速实现吸粉、引流，提升用户体验。</p>
+						<div class="spanwrap">
+							<span>用户运营</span>
+							<span>充值中心搭建</span>
+						</div>
+					</li>
+					<li>
+						<img src="static/picture/cgbg3.png">
+						<h3 class="casetype">互联网平台</h3>
+						<h4 class="casename">百度、天猫、微信、京东</h4>
+						<p>快速提供虚拟充值产品，为终端用户提供全品类充值服务，最大化挖掘用户价值。</p>
+						<div class="spanwrap">
+							<span>快速流量变现</span>
+							<span>提升用户体验</span>
+						</div>
+						<!-- <div class="limask">
+							<div class="limaskinner"></div>
+							<div class="btnwrap">
+								<div class="btninner"></div>
+								<a rel="nofollow" target="_blank" href="https://www.5866.com/productZone/19">查看案例</a>
+							</div>
+						</div> -->
+					</li>
+					<li>
+						<img src="static/picture/cgbg4.png">
+						<h3 class="casetype">PC应用</h3>
+						<h4 class="casename">智齿科技</h4>
+						<p>为智齿平台提供虚拟商品供货、活动策划服务，活跃平台用户，实现流量变现。</p>
+						<div class="spanwrap">
+							<span>标准接口快速对接</span>
+							<span>全品类商品供货</span>
+							<span>售后无忧</span>
+						</div>
+						<!-- <div class="limask">
+							<div class="limaskinner"></div>
+							<div class="btnwrap">
+								<div class="btninner"></div>
+								<a rel="nofollow" target="_blank" href="http://api.soft.360.cn/mallindex.html">查看案例</a>
+							</div>
+						</div> -->
+					</li>
+					<li>
+						<img src="static/picture/cgbg5.png">
+						<h3 class="casetype">互联网内容商</h3>
+						<h4 class="casename">风行视频</h4>
+						<p>提供全托管式电商代运营服务，涵盖商品运营、店铺推广、视觉设计、售后服务等。</p>
+						<div class="spanwrap">
+							<span>十年运营经验</span>
+							<span>专业运营团队</span>
+							<span>销量稳居前列</span>
+						</div>
+						<!-- <div class="limask">
+							<div class="limaskinner"></div>
+							<div class="btnwrap">
+								<div class="btninner"></div>
+								<a rel="nofollow" target="_blank" href="https://mall.jd.com/index-811646.html">查看案例</a>
+							</div>
+						</div> -->
+					</li>
+					<li>
+						<img src="static/picture/cgbg6.png">
+						<h3 class="casetype">线下实体店</h3>
+						<h4 class="casename">天音通信</h4>
+						<p>为天音通信手机连锁提供数字化服务，包括商品卡券及管理系统，并提供精准渠道快速铺货，快速实现互联网化。</p>
+						<div class="spanwrap">
+							<span>实体互联网化</span>
+							<span>渠道拓展</span>
+						</div>
+						<div class="limask">
+							<div class="limaskinner">
+								<div class="comingSoon">
+									<div>即将上线</div>
+									<div>敬请期待</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 公司简介 -->
+		<div class="ggjjwrap">
+			<dl>
+				<dt>公司简介</dt>
+				<dd>河南省网爵网络科技有限公司十年虚拟服务行业沉淀，年交易额超百亿，累积独立用户达2亿，受到腾讯、阿里巴巴、百度、完美世界、盛大游戏、巨人网络，及工商银行、风行视频、移动、联通、电信等行业巨头的青睐。</dd>
+				<dd>多元化先发布局已经形成规模效益，打通上下游产业链的服务能力形成强壁垒。目前，网爵网络正深度探索B2B虚拟增值服务，以在充值、营销、大数据等领域形成完整的价值链。</dd>
+				<dd>公司地址：河南省省烟台市总部基地9层</dd>
+			</dl>
+		</div>
+		<!-- 合作伙伴 -->
+		<div class="partnerwrap">
+			<div class="partnerwrapinner">
+				<h2>合作伙伴</h2>
+				<div class="partnerlistwrap">
+					<a href="javascript:;" class="btn-left"></a>
+					<a href="javascript:;" class="btn-right"></a>
+					<ul class="partner-num">
+						<li class="on"></li>
+						<li></li>
+					</ul>
+					<div class="partnerlist partnerlist1" style="display:block;">
+						<!-- <ul>
+							<li><a href="javascript:;"><img src="./img/partner_01.png"></a></li>
+							<li><a href="javascript:;"><img src="./img/partner_02.png"></a></li>
+							<li><a href="javascript:;"><img src="./img/partner_03.png"></a></li>
+							<li><a href="javascript:;"><img src="./img/partner_04.png"></a></li>
+							<li><a href="javascript:;"><img src="./img/partner_05.png"></a></li>
+							<li><a href="javascript:;"><img src="./img/partner_06.png"></a></li>
+							<li><a href="javascript:;"><img src="./img/partner_07.png"></a></li>
+							<li><a href="javascript:;"><img src="./img/partner_08.png"></a></li>
+							<li><a href="javascript:;"><img src="./img/partner_09.png"></a></li>
+							<li><a href="javascript:;"><img src="./img/partner_10.png"></a></li>
+							<li><a href="javascript:;"><img src="./img/partner_11.png"></a></li>
+							<li><a href="javascript:;"><img src="./img/partner_12.png"></a></li>
+							<li><a href="javascript:;"><img src="./img/partner_13.png"></a></li>
+							<li><a href="javascript:;"><img src="./img/partner_14.png"></a></li>
+							<li><a href="javascript:;"><img src="./img/partner_15.png"></a></li>
+						</ul> -->
+					</div>
+					<div class="partnerlist partnerlist2">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="fixbottom">
+			<a href="javascript:;" class="btn-dh" data="tel:4000012806">电话</a>
+			<a href="javascript:;" class="btn-zx" data="http://wpa.qq.com/msgrd?v=3&uin=4056860&site=qq&menu=yes">咨询</a>
+		</div>
+	</div>
+	<div class="fl-footer">
+			<div class="fl-footerinner">
+				<div class="footerbg1">
+					<ul>
+						<li>
+							<img src="static/picture/footer1.png" alt="行业领先，品类丰富">
+							<span>行业领先，品类丰富</span>
+						</li>
+						<li>
+							<img src="static/picture/footer2.png" alt="快速对接，敏捷上线">
+							<span>快速对接，敏捷上线</span>
+						</li>
+						<li>
+							<img src="static/picture/footer3.png" alt="即时到账，专业护航">
+							<span>即时到账，专业护航</span>
+						</li>
+						<li>
+							<img src="static/picture/footer4.png" alt="7*24小时售后服务">
+							<span>7*24小时售后服务</span>
+						</li>
+					</ul>
+				</div>
+				<div class="footerlistwrap cf">
+					<div class="footerlistwrap-left">
+						<dl>
+							<dt>产品服务</dt>
+						<dd><a href="mall.html">虚拟商城</a></dd>
+						<dd><a href="api.html">充值API</a></dd>
+						<dd><a href="recharge.html">批充批采</a></dd>
+						<dd><a href="accompany.html">短彩服务</a></dd>
+						<dd><a href="gameleveling.html">大数据营销</a></dd>
+						<dd><a href="rent.html">BPO服务</a></dd>
+						<dd><a href="minigame.html">智联物联网</a></dd>
+						<dd><a href="operation.html">电商代运营</a></dd>
+					</dl>
+					<dl>
+							<dt>解决方案</dt>
+							<dd><a href="flow.html">流量变现</a></dd>
+							<dd><a href="userpull.html">拉新促活</a></dd>
+							<dd><a href="integration.html">积分兑换</a></dd>
+							<dd><a href="gift.html">营销赠礼</a></dd>
+							<dd><a href="channel.html">渠道分发</a></dd>
+							<!-- <dd><a href="operation.html">电商代运营</a></dd> -->
+						</dl>
+						<dl>
+							<dt>技术支持</dt>
+							<dd><a href="support.html">API文档</a></dd>
+							<!-- <dd><a href="support.html/#46">常见问题</a></dd> -->
+						</dl>
+						<dl>
+							<dt>联系我们</dt>
+							<dd><a href="contactus.html">电话：177-1999-0115</a></dd>
+							<dd><a href="tel:010-67890010">座机：010-67890010</a></dd>
+							<dd style="width:185px;"><a href="contactus.html">合作邮箱：hyun@netjue.com</a></dd>
+						</dl>
+					</div>
+					<div class="footerlistwrap-right">
+						<div class="footer-code"></div>
+						<p>网爵官方公众号</p>
+					</div>
+				</div>
+				<div class="footerlink cf">
+					<dl>友情链接：</dl>
+					<dd><a target="_blank" href="">网爵官网</a></dd>
+					<dd><a target="_blank" href="https://pay.7zz.cn//" rel="nofollow">网爵易支付</a></dd>
+					<dd><a target="_blank" href="https://www.netjue.top/">网爵聚合登录</a></dd>
+				</div>
+				<div class="footerright">
+					<p>Copyright© 2023-<span></span> 河南省网爵网络科技有限公司 ALL RIGHTS RESERVED&nbsp;&nbsp;<span>&middot;</span>&nbsp;&nbsp;<a href="https://beian.miit.gov.cn" target="_blank">豫ICP备2021018473号-5</a>&nbsp;&nbsp;<span>&middot;</span>&nbsp;&nbsp;<a href="增值许可证书" target="_blank">经营许可证：办理中</a>&nbsp;&nbsp;<span>&middot;</span>&nbsp;&nbsp; 
+				</div>
+			</div>
+	</div>
+	<ul class="fl-sidebarbox">
+		<!-- <li class="fl-bdsq">
+			<a class="baiduqiao" href="javascript:;" target="_blank"></a>
+		</li>
+		<!-- <li class="fl-online_counseling">
+			<div id="BizQQWPA"></div>
+		</li> -->
+		<li class="fl-telephone_counseling">
+			<div class="fl-telephone_number">
+				请拨打 <span> 177-1999-0115</span>
+			</div>
+		</li>
+		<li class="fl-gotop"></li>
+	</ul>
+	<script type="text/javascript" src="static/js/jquery181min.js"></script>
+	<script type="text/javascript" src="static/js/api.js"></script>
+	<script type="text/javascript" src="static/js/common.js"></script>
+	<script type="text/javascript" src="static/js/index.js"></script>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "../hm.baidu.com/hm.js-2bb087b0b7a6d8ab53ea12eefcfeffbc"/*tpa=https://hm.baidu.com/hm.js?2bb087b0b7a6d8ab53ea12eefcfeffbc*/;
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+	
+	<!-- 百度商桥 -->
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+			var hm = document.createElement("script");
+			hm.src = "../hm.baidu.com/hm.js-2246c294a509bc262d9406068547ebd1"/*tpa=https://hm.baidu.com/hm.js?2246c294a509bc262d9406068547ebd1*/;
+			var s = document.getElementsByTagName("script")[0]; 
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+</body>
+
+</html>
+<script language="javascript" src="http://www.taivei.com/ddt.zoosnet.net/js/lsjs-1.aspx-siteid=ddt32701077&lng=cn"></script>
